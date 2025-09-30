@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position:relative;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+}
