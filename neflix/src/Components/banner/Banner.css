@@ -1,0 +1,30 @@
+.banner{
+    height: 500px;
+    width: auto;
+    display: inline;
+}
+.write{
+    padding-top: 50%;
+    display: inline;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.hun{
+    display: flex;
+}
+
+/* Optional additional styling */
+
+.banner-page {
+  min-height: 100vh;
+}
+
+.banner img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.group:hover img {
+  transform: scale(1.05);
+}
